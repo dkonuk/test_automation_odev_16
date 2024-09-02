@@ -24,7 +24,7 @@ public class WebTableSteps  {
         pageManager.webTablesPage.department.setValue("IT");
         pageManager.webTablesPage.submitButton.click();
     }
-    @Then("Check the new record in Web Table")
+    @Then("New Record Added to Web Table")
     public void checkTheNewRecordInWebTable() {
         assertThat(pageManager.webTablesPage.recordName.getText()).isEqualTo("John");
         assertThat(pageManager.webTablesPage.recordLastName.getText()).isEqualTo("Doe");
@@ -33,5 +33,26 @@ public class WebTableSteps  {
         assertThat(pageManager.webTablesPage.recordSalary.getText()).isEqualTo("5000");
         assertThat(pageManager.webTablesPage.recordDepartment.getText()).isEqualTo("IT");
 
+    }
+
+    @Then("Update the record in Web Table")
+    public void updateTheRecordInWebTable() {
+        pageManager.webTablesPage.editButton.click();
+        pageManager.webTablesPage.firstName.setValue("Jane");
+        pageManager.webTablesPage.lastName.setValue("Doe");
+        pageManager.webTablesPage.email.setValue("j6JpW@example.com");
+        pageManager.webTablesPage.age.setValue("30");
+        pageManager.webTablesPage.salary.setValue("5000");
+        pageManager.webTablesPage.department.setValue("IT");
+        pageManager.webTablesPage.submitButton.click();
+    }
+    @Then("Record Updated in Web Table")
+    public void checkTheUpdatedRecordInWebTable() {
+        assertThat(pageManager.webTablesPage.recordName.getText()).isEqualTo("Jane");
+        assertThat(pageManager.webTablesPage.recordLastName.getText()).isEqualTo("Doe");
+        assertThat(pageManager.webTablesPage.recordEmail.getText()).isEqualTo("j6JpW@example.com");
+        assertThat(pageManager.webTablesPage.recordAge.getText()).isEqualTo("30");
+        assertThat(pageManager.webTablesPage.recordSalary.getText()).isEqualTo("5000");
+        assertThat(pageManager.webTablesPage.recordDepartment.getText()).isEqualTo("IT");
     }
 }
