@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="579c531c-6a36-4c93-89f8-0cc4d8910910" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebTablesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WebTablesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ElementsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WebTablesTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="579c531c-6a36-4c93-89f8-0cc4d8910910" name="Changes" comment="All the test are done using Cucumber." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +60,9 @@
     "last_opened_file_path": "/Users/denizkonuk/IdeaProjects/test_automation_odev_17"
   }
 }]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
   <component name="RunManager">
     <configuration name="Feature: Click" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -181,6 +176,49 @@
       <option name="presentableId" value="Default" />
       <updated>1725034979351</updated>
     </task>
+    <task id="LOCAL-00001" summary="All the test are done using Cucumber.">
+      <option name="closed" value="true" />
+      <created>1725294858479</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725294858479</updated>
+    </task>
+    <task id="LOCAL-00002" summary="All the test are done using Cucumber.">
+      <option name="closed" value="true" />
+      <created>1725294999143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725294999143</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="All the test are done using Cucumber." />
+    <option name="LAST_COMMIT_MESSAGE" value="All the test are done using Cucumber." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/steps/WebTableSteps.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
