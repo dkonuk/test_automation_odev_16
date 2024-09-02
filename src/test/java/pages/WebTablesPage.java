@@ -19,11 +19,16 @@ public class WebTablesPage extends BasePage {
     public SelenideElement age = $("input#age");
     public SelenideElement salary = $("input#salary");
     public SelenideElement department = $("input#department");
-    public SelenideElement updatedElementName = $("div:nth-child(4) > div > div:nth-child(1)");
 
+    public SelenideElement recordName = $("div:nth-child(4) > div > div:nth-child(1)");
+    public SelenideElement recordLastName = $("div:nth-child(4) > div > div:nth-child(2)");
+    public SelenideElement recordEmail = $("div:nth-child(4) > div > div:nth-child(4)");
+    public SelenideElement recordAge = $("div:nth-child(4) > div > div:nth-child(3)");
+    public SelenideElement recordSalary = $("div:nth-child(4) > div > div:nth-child(5)");
+    public SelenideElement recordDepartment = $("div:nth-child(4) > div > div:nth-child(6)");
+//    public SelenideElement updatedElementName = $("div:nth-child(4) > div > div:nth-child(1)");
 
     public SelenideElement submitButton = $("button[id='submit']");
-    private String recordToUpdate;
     public SelenideElement editButton = $("#edit-record-4");
     public WebTablesPage(String pageUrl) {
         super(pageUrl);
